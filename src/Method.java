@@ -1,10 +1,9 @@
 public class Method {
 
-    int number;
-    int suma;
+
+    int justMethod(int suma, int number) {
 
 
-    int justMethod() {
         suma = 0;
         do {
             int digit = number % 10;

@@ -6,9 +6,10 @@ public class MethodTest {
         Scanner scan = new Scanner(System.in);
         System.out.println("Podaj liczbę: ");
         int number = scan.nextInt();
+        int suma=0;
 
         Method check = new Method();
-        int sum = check.justMethod();
+        int sum = check.justMethod(suma,number);
 
         System.out.println("Suma cyfr: " + sum);
     }
